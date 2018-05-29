@@ -26,4 +26,4 @@ post: /api/posts
 Header: authorization: Bearer <token>
 ```
 
-### Use postman to test api
+### Use postman to test api. [Download Postman Export File](https://github.com/tareque20/node-auth-jwt/blob/master/Node-Auth-JWT.postman_collection.json)
