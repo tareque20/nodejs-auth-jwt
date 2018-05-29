@@ -1,0 +1,50 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Node-Auth-JWT",
+		"_postman_id": "535ae926-cec6-19d3-fe8d-be6a8df41e33",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/api/",
+			"request": {
+				"url": "http://localhost:3000/api/",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/login",
+			"request": {
+				"url": "http://localhost:3000/api/login",
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/posts",
+			"request": {
+				"url": "http://localhost:3000/api/posts",
+				"method": "POST",
+				"header": [
+					{
+						"key": "authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxLCJ1c2VybmFtZSI6InRhc2ZpbiIsImVtYWlsIjoidGFyZXF1ZTIwQGdtYWlsLmNvbSJ9LCJpYXQiOjE1Mjc1NzE3Mzh9.WVU3cLZIA1xw51lmTUJlBSeScgNhOoz5QgNItUJhxJs",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

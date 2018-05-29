@@ -1,0 +1,23 @@
+{
+  "name": "node-auth-jwt",
+  "version": "1.0.0",
+  "description": "Authentication with JWT",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tareque20/node-auth-jwt.git"
+  },
+  "author": "Tasfin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tareque20/node-auth-jwt/issues"
+  },
+  "homepage": "https://github.com/tareque20/node-auth-jwt#readme"
+}
