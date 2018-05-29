@@ -1,5 +1,5 @@
-# nodejs express mongodb Passport
-Login app example with MongoDB, Joi validation, Handlebar Template Engine, Passport
+# nodejs express JWT
+Login app example with JWT
 
 # Run Project:
 ```sh
